@@ -1,0 +1,16 @@
+.login-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: background-image 1s ease-in;
+}
+
+@media only screen and (max-width: 800px) {
+  .login-wrapper {
+    background-size: initial;
+  }
+}
